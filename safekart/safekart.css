@@ -1,121 +1,135 @@
-* {
-box-sizing: border-box;
+body {
+min-width: 1080px;
+}
+
+.center{
+float: left;
+padding: 0px 10px;
+}
+
+.container-fluid {
+background: #bb4430;
+}
+
+.topbar {
+width: 80%;
+margin: auto;
+}
+
+.center>li>a, .navbar-right>li>a {
+color: #fff;
+font-size: 16px;
+}
+
+.SafeKart {
+color: #fff;
+font-weight: 500;
 margin: 0px;
-padding: 0px;
-font-family: 'Calibri';
+padding: 10px;
+padding-top: 30px;
+font-family: Open Sans;
 }
 
-h1 {
-width: 100%;
-background-color: rgba(169,169,169,0.8);
-color: White;
-height: 100px;
-font-size: 42px;
-position: fixed;
-padding-left: 100px;
-padding-top: 20px;
-padding-bottom: 20px;
-text-align: 'left';
-z-index: 100;
+.fixed {
+background: #231f20;
+z-index: 2;
 }
 
-.fixed .firstlist {
-width: 100%;
-position: fixed;
-top: 100px;
-padding-left: 100px;
-z-index: 100;
-background-color: rgb(211,211,211);
+.carousel-inner > .item > img {
+width: 400px;
+height: 200px;
+margin: auto;
 }
 
-.secondlist {
-width: 100%;
-padding-left: 100px;
-position: relative;
-top: 150px;
+.intro {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+color: #fff;
+font-size: 1.2em;
+width: 635px;
+margin: auto;
+padding: auto;
 }
 
-.products {
-display: none;
-padding-left: 100px;
-position: relative;
-height: 55px;
-top: 150px;
-background-color: rgba(211,211,211,0.8);
-}
-
-.products li {
-display: inline-block;
-color: rgb(10,5,5);
-border: 2px solid rgba(10,5,5,0.8);
-font-size: 18px;
-border-radius: 5px;
-padding: 5px;
-margin: 10px 5px;
-background-color: rgb(169,169,169,0.8);
-}
-
-.fixed li {
-display: inline-block;
-color: rgb(10,5,5);
-border: 2px solid rgba(10,5,5,0.8);
-font-size: 18px;
-float: 'right';
-border-radius: 5px;
-margin: 10px 5px;
-padding: 5px;
-background-color: rgba(169,169,169,0.8);
-}
-
-.secondlist li {
-display: inline-block;
-color: rgb(10,5,5);
-border: 2px solid rgba(10,5,5,0.8);
-font-size: 18px;
-float: 'left';
-border-radius: 5px;
-margin: 10px 5px;
+.intro-container {
+background: #bb4430;
 padding: 5px;
 }
 
-.list {
-display:none;
-position: relative;
-padding-left: 100px;
-background-color: rgba(211,211,211,0.8);
-top: 150px;
+.dropdown-submenu:hover>.dropdown-menu {
+display: block;
 }
 
-.list li {
+.dropdown:hover>.dropdown-menu {
+display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    float: right;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.single {
+width: 760px;
+text-transform: capitalise;
+
+}
+
+.single li {
 display: inline-block;
-border-width: 2px 0px;
-border-color: Black;
-margin: 10px;
-text-transform: capitalize;
+width: 250px;
 }
 
-.images p{
-position: relative;
-padding: auto 0px;
-top: 155px;
-height: 400px;
-background-image: url("http://www.gcmetal.pl/wp-content/uploads/2016/10/urzadzenia-u-800x500.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-font-weight: 400;
-font-size: 36px;
-text-align: center;
+.content {
+width: 80%;
+margin: auto;
 }
-
-p {
-position: relative;
-top: 150px;
-padding: 100px;
+
+.irsc {
 font-size: 18px;
-letter-spacing: 1px;
-word-spacing: 2px;
-background-color: Gray;
-color: White;
-z-index: 50;
+width: 150px;
+float: right;
 }
+
+.footer {
+background: #231f20;
+}
+
+
+
+
